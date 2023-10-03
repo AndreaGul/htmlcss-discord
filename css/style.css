@@ -9,33 +9,36 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
-
+/* container di default */
 .container {
   margin: 0 auto;
 }
+/* /container di default */
 
-.container.big {
-  max-width: 1250px;
-}
-
+/* caratteristiche del bottone di default */
 .button-default {
   background-color: white;
   padding: 10px 12px;
   border-radius: 20px;
 }
+/* /caratteristiche del bottone di default */
 
 /************ header ************/
 
+/* colore del testo di default nel header */
 header {
   color: white;
 }
+/* /colore del testo di default nel header */
 
+/* colore del testo dei link di default nel header */
 header a {
   color: white;
   text-decoration: none;
 }
-
+/* /colore del testo dei link di default nel header */
 /* 
+
 debug header 
 */
 
@@ -97,6 +100,12 @@ intestazione
 }
 /* /contenitore dell barra superiore dell'header */
 
+/* continer che definisce la grandezza della topbar nell'header */
+.container.big {
+  max-width: 1250px;
+}
+/* /continer che definisce la grandezza della topbar nell'header */
+
 /* contenitore padre di logo login e link */
 .intestazione {
   display: flex;
@@ -153,18 +162,18 @@ jumbotron
 }
 /* /contenitore della barra inferiore dell'header */
 
-/* contenitore delle informazioni del jumbotron */
+/* contenitore delle dimensioni del jumbotron */
 .jumbotron {
   max-width: 800px;
   text-align: center;
 }
-/* /contenitore delle informazioni del jumbotron */
+/* /contenitore delle dimensioni del jumbotron */
 
-/* margini dati al paragrafo */
-p {
+/* margini dati al paragrafo del jumbotron */
+.jumbotron p {
   margin: 20px;
 }
-/* /margini dati al paragrafo */
+/* /margini dati al paragrafo jumbotron*/
 
 /* caratteristiche dati ai bottoni al di sotto dedl paragrafo */
 .bottoni-bottom a {
@@ -226,21 +235,50 @@ debug main
  /debug main 
  */
 
-/* contenitore base delle sezioni */
-.container-sez {
-  height: 630px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* /contenitore base delle sezioni */
+/**** sezione ****/
 
-/* inversione delle solonne della sezione 2 */
-.sezione-2 {
-  display: flex;
-  flex-direction: row-reverse;
+/* colore delle del background delle sezioni a 2 a 2 */
+main .sezione:nth-child(even) {
+  background-color: #f6f6f6;
 }
-/* /inversione delle solonne della sezione 2 */
+/* /colore delle del background delle sezioni a 2 a 2 */
+
+/* contenitore della sezione che contiene col-big e col-lil */
+.cont-sez {
+  max-width: 80%;
+  padding: 70px 0;
+}
+/* /contenitore della sezione che contiene col-big e col-lil */
+
+/* ci permettere di disporre col-big e col-lil uno affianco all'altro */
+.cont-sez .row {
+  display: flex;
+}
+/* /ci permettere di disporre col-big e col-lil uno affianco all'altro */
+
+/* definisce la grandezza della colonna grande e il posizionamento dell'immagine al suo interno */
+.col-big {
+  width: 60%;
+  text-align: center;
+}
+/* /definisce la grandezza della colonna grande e il posizionamento dell'immagine al suo interno */
+
+/* definisce la grandezza della colonna piccola e il posizionamento dell'immagine al suo interno*/
+.col-lil {
+  width: 40%;
+  padding: 40px 50px;
+  text-align: left;
+}
+/* /definisce la grandezza della colonna piccola e il posizionamento dell'immagine al suo interno*/
+
+/* grandezza e margine del titolo della sezione della colonna piccola */
+.col-lil h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+/* /grandezza e margine del titolo della sezione della colonna piccola */
+
+/**** /sezione ****/
 
 /* ***** /main ****** */
 
