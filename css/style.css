@@ -89,11 +89,14 @@ debug header
 intestazione
 */
 
+/* contenitore dell barra superiore dell'header */
 .topbar {
   height: 85px;
   background-color: #255ee9;
   padding-top: 20px;
 }
+/* /contenitore dell barra superiore dell'header */
+
 /* contenitore padre di logo login e link */
 .intestazione {
   display: flex;
@@ -136,20 +139,50 @@ intestazione
 */
 
 /* 
-banner 
+jumbotron 
 */
-.container-banner {
-  height: 520px;
+
+/* contenitore della barra inferiore dell'header */
+.bottombar {
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+/* /contenitore della barra inferiore dell'header */
 
-.banner {
-  width: 950px;
+/* contenitore delle informazioni del jumbotron */
+.jumbotron {
+  max-width: 800px;
+  text-align: center;
+  background-color: red;
 }
+/* /contenitore delle informazioni del jumbotron */
+
+/* margini dati al paragrafo */
+p {
+  margin: 20px;
+}
+/* /margini dati al paragrafo */
+
+/* caratteristiche dati ai bottoni al di sotto dedl paragrafo */
+.bottoni-bottom a {
+  margin: 0 5px;
+}
+
+.bottoni-bottom .b1 {
+  color: black;
+}
+
+.bottoni-bottom .b2 {
+  background-color: #23272a;
+}
+/* /caratteristiche dati ai bottoni al di sotto dedl paragrafo */
+
 /* 
-/banner 
+/jumbotron
 */
 
 /************ /header ************/
