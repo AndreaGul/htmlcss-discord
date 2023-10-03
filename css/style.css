@@ -63,57 +63,6 @@ body a {
 /************ header ************/
 
 /* 
-
-debug header 
-*/
-
-/* contenitore esterno dell'intestazione */
-.debug header .topbar {
-  background-color: #add8e6;
-}
-/* /contenitore esterno dell'intestazione */
-
-/* contenitore dell'intestazione */
-.debug header .intestazione {
-  width: 1250px;
-  height: 50px;
-  background-color: #daa520;
-}
-/* /contenitore dell'intestazione */
-
-/* contenitori di logo, login e link */
-.debug header .lil-container {
-  width: 250px;
-  height: 100%;
-  border: black 2px dashed;
-}
-
-.debug header .big-container {
-  width: calc(100% - 500px);
-  border: black 2px dashed;
-}
-/* /contenitori di logo, login e link */
-
-/* contenitore esterno di banner */
-.debug header .container-banner {
-  width: 100%;
-  background-color: #00008b;
-}
-/* /contenitore esterno di banner */
-
-/* contenitore del banner */
-.debug header .banner {
-  height: 416px;
-  background-color: #ee82ee;
-  border: black 2px dashed;
-}
-/* /contenitore del banner */
-
-/* 
-/debug header 
-*/
-
-/* 
 intestazione
 */
 
@@ -222,44 +171,6 @@ jumbotron
 
 /* ***** main ****** */
 
-/* 
-debug main 
-*/
-
-.debug main .sez-big {
-  height: 520px;
-  width: 750px;
-  background-color: #1e90ff;
-  border: black dashed 2px;
-}
-
-.debug main .sez-lil {
-  height: 520px;
-  width: 500px;
-  background-color: #ffc0cb;
-  border: black dashed 2px;
-}
-
-.debug main .sezione-2,
-.sezione-4 {
-  background-color: #d3d3d3;
-}
-
-.debug main .sezione-4 {
-  height: 1040px;
-}
-
-.debug main .final-block {
-  height: 950px;
-  width: 1250px;
-  background-color: #228b22;
-  border: black dashed 2px;
-}
-
-/*
- /debug main 
- */
-
 /**** sezione ****/
 
 /* colore delle del background delle sezioni a 2 a 2 */
@@ -331,63 +242,6 @@ main .sezione:nth-child(even) {
 /* ***** /main ****** */
 
 /* ***** footer ***** */
-
-/* 
-debug footer 
-*/
-
-/* colore di background del footer suddiviso nelle in due parti */
-.debug footer .container-footer {
-  background-color: #23272a;
-}
-/* /colore di background del footer suddiviso nelle in due parti */
-
-/* rappresentazione della colonna1 a sinistra */
-.debug footer .colonna1 {
-  background-color: #f08080;
-  height: 600px;
-  width: 300px;
-  border: black dashed 2px;
-}
-/* /rappresentazione della colonna1 a sinistra */
-
-/* rappresentazione della colonna2 a destra */
-.debug footer .colonna2 {
-  background-color: #20b2aa;
-  height: 600px;
-  width: 870px;
-  border: black dashed 2px;
-}
-/* /rappresentazione della colonna2 a destra */
-
-/* rappresentazioni dell varie parte contenute nella colonna2 */
-.debug footer .parti {
-  height: 100%;
-  border: white dashed 2px;
-}
-/* /rappresentazioni dell varie parte contenute nella colonna2 */
-
-/* divisione grafica delle due parti del footer */
-.debug footer .footer-bottom {
-  border-top: white solid 2px;
-}
-/* divisione grafica delle due parti del footer */
-
-/* contenitore del logo e del bottone a fondo pagina */
-.debug footer .container-endpage {
-  background-color: #7fffd4;
-  width: 1250px;
-  height: 85px;
-}
-/* /contenitore del logo e del bottone a fondo pagina */
-
-/* decorazione del logo e del bottone a fondo pagina */
-.debug footer .conf-fin-pag {
-  background-color: #ffb6c1;
-  border: black dashed 2px;
-}
-/* /decorazione del logo e del bottone a fondo pagina */
-/* ** debug footer ** */
 
 footer {
   background-color: #23272a;
