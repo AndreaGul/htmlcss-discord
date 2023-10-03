@@ -23,6 +23,13 @@ body {
 }
 /* /caratteristiche del bottone di default */
 
+/* colore del testo dei link di default nel header */
+body a {
+  color: white;
+  text-decoration: none;
+}
+/* /colore del testo dei link di default nel header */
+
 /************ header ************/
 
 /* colore del testo di default nel header */
@@ -31,12 +38,6 @@ header {
 }
 /* /colore del testo di default nel header */
 
-/* colore del testo dei link di default nel header */
-header a {
-  color: white;
-  text-decoration: none;
-}
-/* /colore del testo dei link di default nel header */
 /* 
 
 debug header 
@@ -271,12 +272,36 @@ main .sezione:nth-child(even) {
 }
 /* /definisce la grandezza della colonna piccola e il posizionamento dell'immagine al suo interno*/
 
-/* grandezza e margine del titolo della sezione della colonna piccola */
-.col-lil h2 {
+/* grandezza e margine del titolo della sezione delle colonne */
+.grandz-font-col h2 {
   font-size: 35px;
   margin-bottom: 30px;
 }
-/* /grandezza e margine del titolo della sezione della colonna piccola */
+/* /grandezza e margine del titolo della sezione delle colonne */
+
+/* posizionamento degli lementi all'interno della sezione */
+.sezione-max {
+  text-align: center;
+}
+/* /posizionamento degli lementi all'interno della sezione */
+
+/* grandezza immagine nella sezione 4 */
+.sezione-max img {
+  width: 100%;
+}
+/* /grandezza immagine nella sezione 4 */
+
+/* margini di h3 nella sezione 4 */
+.sezione-max h3 {
+  margin: 40px 0;
+}
+/* /margini di h3 nella sezione 4 */
+
+/* colore dle bottone nella sezione 4 */
+.sezione-max .button {
+  background-color: #7289da;
+}
+/* /colore dle bottone nella sezione 4 */
 
 /**** /sezione ****/
 
@@ -339,9 +364,7 @@ debug footer
   border: black dashed 2px;
 }
 /* /decorazione del logo e del bottone a fondo pagina */
-/* 
-/debug footer 
-*/
+/* ** debug footer ** */
 
 /* disposizone del contenuto di default nel footer  */
 .container-footer {
