@@ -5,14 +5,37 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+.container.big {
+  max-width: 1250px;
+}
+
+.button-default {
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 20px;
+}
+
 /************ header ************/
+
+header {
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
 
 /* 
 debug header 
 */
 
 /* contenitore esterno dell'intestazione */
-.debug header .container-intesta {
+.debug header .topbar {
   background-color: #add8e6;
 }
 /* /contenitore esterno dell'intestazione */
@@ -61,44 +84,47 @@ debug header
 intestazione
 */
 
-.container-intesta {
+.topbar {
   height: 85px;
-  display: flex;
-  align-items: center;
+  background-color: #255ee9;
+  padding-top: 20px;
 }
 /* contenitore padre di logo login e link */
 .intestazione {
-  margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 5px;
 }
 /* /contenitore padre di logo login e link */
 
 /* contenitori di logo, login e link */
 .lil-container {
-  padding: 15px;
+  width: 20%;
+}
+
+.big-container {
+  width: 60%;
 }
 
 /* /contenitori di logo, login e link */
 
 /* posizionamento di logo, login e link */
-.logo-top-pag {
-  display: flex;
-  align-items: center;
-}
 
 .login-top-pag {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  color: black;
+  text-align: end;
 }
 
 .link-top-pag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 /* /posizionamento di logo, login e link */
+
+/* margini tra i link centrali*/
+.link-top-pag a {
+  margin: 0 20px;
+}
+/* /margini tra i link centrali*/
 
 /* 
 /intestazione 
