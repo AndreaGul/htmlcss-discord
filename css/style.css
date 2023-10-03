@@ -36,8 +36,14 @@ body {
 /* /ci permette di posizionare elementi uno affianco all'altro */
 
 /* larghezza standard dei contenitori della pagina */
-.width-default {
+.width-default-big {
   width: 80%;
+}
+/* larghezza standard dei contenitori della pagina */
+
+/* larghezza standard dei contenitori della pagina */
+.width-default-small {
+  width: 60%;
 }
 /* larghezza standard dei contenitori della pagina */
 
@@ -291,8 +297,14 @@ main .sezione:nth-child(even) {
 
 /* grandezza e margine del titolo della sezione delle colonne */
 .grandz-font-col h2 {
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 30px;
+}
+/* /grandezza e margine del titolo della sezione delle colonne */
+
+/* grandezza e margine del titolo della sezione delle colonne */
+.grandz-font-col p {
+  font-size: 16px;
 }
 /* /grandezza e margine del titolo della sezione delle colonne */
 
@@ -384,6 +396,7 @@ footer {
 .container-footer {
   padding-top: 80px;
   padding-bottom: 60px;
+  padding: 0 165px;
 }
 
 /* spaziamenti della parte superiore del footer */
@@ -425,6 +438,12 @@ footer {
   margin-right: 5px;
 }
 
+/* grandezza testo del pargrafo nella colonna 1 del footer top */
+.colonna1 p {
+  font-size: 12px;
+}
+/* /grandezza testo del pargrafo nella colonna 1 del footer top */
+
 /* ridimenzionamento immagine italia */
 .ridimensiona {
   height: 16px;
@@ -445,6 +464,7 @@ footer {
 /* distanza tra ogni punto della lista con un margine top */
 .colonna2 li {
   margin-top: 20px;
+  font-size: 12px;
 }
 /* /distanza tra ogni punto dlla lista con un margine top */
 
