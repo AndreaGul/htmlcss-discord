@@ -23,6 +23,24 @@ body {
 }
 /* /caratteristiche del bottone di default */
 
+/* colore dle bottone nella sezione 4 */
+.alter-button-color {
+  background-color: #7289da;
+}
+/* /colore dle bottone nella sezione 4 */
+
+/* ci permette di posizionare elementi uno affianco all'altro */
+.row {
+  display: flex;
+}
+/* /ci permette di posizionare elementi uno affianco all'altro */
+
+/* larghezza standard dei contenitori della pagina */
+.width-default {
+  width: 80%;
+}
+/* larghezza standard dei contenitori della pagina */
+
 /* colore del testo dei link di default nel header */
 body a {
   color: white;
@@ -30,13 +48,13 @@ body a {
 }
 /* /colore del testo dei link di default nel header */
 
-/************ header ************/
-
-/* colore del testo di default nel header */
-header {
+/* colore di defauld della maggior parte del testo */
+.color-default {
   color: white;
 }
-/* /colore del testo di default nel header */
+/* /colore di defauld della maggior parte del testo */
+
+/************ header ************/
 
 /* 
 
@@ -165,7 +183,6 @@ jumbotron
 
 /* contenitore delle dimensioni del jumbotron */
 .jumbotron {
-  max-width: 800px;
   text-align: center;
 }
 /* /contenitore delle dimensioni del jumbotron */
@@ -244,12 +261,11 @@ main .sezione:nth-child(even) {
 }
 /* /colore delle del background delle sezioni a 2 a 2 */
 
-/* contenitore della sezione che contiene col-big e col-lil */
+/* spaziamenti della sezione che contiene col-big e col-lil */
 .cont-sez {
-  max-width: 80%;
   padding: 70px 0;
 }
-/* /contenitore della sezione che contiene col-big e col-lil */
+/* /spaziamenti della sezione che contiene col-big e col-lil */
 
 /* ci permettere di disporre col-big e col-lil uno affianco all'altro */
 .cont-sez .row {
@@ -296,12 +312,6 @@ main .sezione:nth-child(even) {
   margin: 40px 0;
 }
 /* /margini di h3 nella sezione 4 */
-
-/* colore dle bottone nella sezione 4 */
-.sezione-max .button {
-  background-color: #7289da;
-}
-/* /colore dle bottone nella sezione 4 */
 
 /**** /sezione ****/
 
@@ -366,25 +376,36 @@ debug footer
 /* /decorazione del logo e del bottone a fondo pagina */
 /* ** debug footer ** */
 
-/* disposizone del contenuto di default nel footer  */
-.container-footer {
-  display: flex;
-  justify-content: center;
+footer {
+  background-color: #23272a;
 }
-/* /disposizone del contenuto di default nel footer  */
 
-/* dimensione della parte superiore del footer */
-.footer-top {
-  height: 655px;
-  padding-top: 12px;
+.container-footer {
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
-/* /dimensione della parte superiore del footer */
+
+/* spaziamenti della parte superiore del footer */
+.footer-top {
+  padding-bottom: 40px;
+}
+/* /spaziamenti della parte superiore del footer */
+
+.footer-top .colonna1 {
+  width: 30%;
+}
 
 /* disposizione del contenuto nella colonna 2 */
-.colonna2 {
-  display: flex;
+.footer-top .colonna2 {
+  width: 70%;
 }
 /* /disposizione del contenuto nella colonna 2 */
+
+/* colore di default dei titoli all'interno del footer */
+.color-default-titoli {
+  color: #7289da;
+}
+/* /colore di default dei titoli all'interno del footer */
 
 /* divisione del contenuto nella colonna2 in parti uguali */
 .parti {
@@ -392,22 +413,50 @@ debug footer
 }
 /* /divisione del contenuto nella colonna2 in parti uguali */
 
+/* distanziamento di pimg italia e p con il titolo e i link social */
+.colonna1 .spaz {
+  margin: 10px 0;
+}
+/* /distanziamento di p con il titolo e i link social */
+
+/* spazio tra l'immagine della bandiera italiana e il paragrafo con la lingua italiana */
+.spaz img {
+  margin-right: 5px;
+}
+
+/* ridimenzionamento immagine italia */
+.ridimensiona {
+  height: 16px;
+}
+/* /ridimenzionamento immagine italia */
+
+/* distanziamento dei link social tra di loro */
+.link-social a {
+  margin-right: 10px;
+}
+
+/* rimozione dei puntirni vicino all'unordered list */
+.colonna2 ul {
+  list-style-type: none;
+}
+/* /rimozione dei puntirni vicino all'unordered list */
+
+/* distanza tra ogni punto della lista con un margine top */
+.colonna2 li {
+  margin-top: 20px;
+}
+/* /distanza tra ogni punto dlla lista con un margine top */
+
 /* dimensione della parte inferiore del footer */
 .footer-bottom {
-  height: 115px;
-  align-items: flex-end;
+  border-top: #4f5d8c solid 2px;
+  padding-top: 16px;
 }
 /* /dimensione della parte inferiore del footer */
 
 /* disposizione del logo e del bottone nel contenitore a fondo pagina */
 .container-endpage {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
-
-.conf-fin-pag {
-  padding: 5px;
-}
-
+/* /disposizione del logo e del bottone nel contenitore a fondo pagina */
 /* ***** /footer ***** */
