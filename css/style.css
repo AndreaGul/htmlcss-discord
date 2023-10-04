@@ -260,9 +260,7 @@ footer {
 }
 
 .container-footer {
-  padding-top: 80px;
-  padding-bottom: 60px;
-  padding: 0 165px;
+  padding: 80px 165px 60px 165px;
 }
 
 /* spaziamenti della parte superiore del footer */
