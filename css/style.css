@@ -191,6 +191,12 @@ main :nth-child(even of .sezione) {
 }
 /* /colore delle del background delle sezioni a 2 a 2 */
 
+/* le immagini si adattano al contenitore */
+main .sezione img {
+  width: 100%;
+}
+/* /le immagini si adattano al contenitore */
+
 /* spaziamenti della sezione che contiene col-big e col-lil */
 .cont-sez {
   padding: 70px 0;
@@ -236,12 +242,6 @@ main :nth-child(even of .sezione) {
   text-align: center;
 }
 /* /posizionamento degli lementi all'interno della sezione */
-
-/* grandezza immagine nella sezione 4 */
-.sezione-max img {
-  width: 100%;
-}
-/* /grandezza immagine nella sezione 4 */
 
 /* margini di h3 nella sezione 4 */
 .sezione-max h3 {
