@@ -60,6 +60,12 @@ body a {
 }
 /* /colore di defauld della maggior parte del testo */
 
+/* altezza tra le righe di p */
+p {
+  line-height: 1.6;
+}
+/* /altezza tra le righe di p */
+
 /************ header ************/
 
 /* 
