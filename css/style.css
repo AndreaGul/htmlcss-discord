@@ -186,7 +186,7 @@ jumbotron
 /**** sezione ****/
 
 /* colore delle del background delle sezioni a 2 a 2 */
-main .sezione:nth-child(even) {
+main :nth-child(even of .sezione) {
   background-color: #f6f6f6;
 }
 /* /colore delle del background delle sezioni a 2 a 2 */
