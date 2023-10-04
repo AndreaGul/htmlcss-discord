@@ -105,6 +105,11 @@ intestazione
 
 /* /contenitori di logo, login e link */
 
+/* rimozione pixel sotto ad immagine del logo */
+.logo-top-pag {
+  display: block;
+}
+
 /* posizionamento di logo, login e link */
 
 .login-top-pag {
@@ -116,6 +121,12 @@ intestazione
   text-align: center;
 }
 /* /posizionamento di logo, login e link */
+
+/* facciamo stare il bottone nei limiti definit dal suo contenitore */
+.login-top-pag .btn {
+  display: inline-block;
+}
+/* /facciamo stare il bottone nei limiti definit dal suo contenitore */
 
 /* margini tra i link centrali*/
 .link-top-pag a {
