@@ -243,6 +243,12 @@ main .sezione img {
 }
 /* /margini di h3 nella sezione 4 */
 
+/* padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
+.col-fu {
+  padding: 0 30px;
+}
+/* /padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
+
 /**** /sezione ****/
 
 /* ***** /main ****** */
