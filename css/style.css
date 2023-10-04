@@ -283,6 +283,7 @@ footer {
 /* disposizione del contenuto nella colonna 2 */
 .footer-top .colonna2 {
   width: 70%;
+  justify-content: space-between;
 }
 /* /disposizione del contenuto nella colonna 2 */
 
@@ -316,12 +317,6 @@ footer {
   gap: 10px;
 }
 /* /distanziamento dei link social tra di loro */
-
-/* divisione del contenuto nella colonna2 in parti uguali */
-.parti {
-  flex-grow: 1;
-}
-/* /divisione del contenuto nella colonna2 in parti uguali */
 
 /* grandezza testo del pargrafo nella colonna 1 del footer top */
 .colonna1 p {
