@@ -199,15 +199,9 @@ main .sezione img {
 
 /* spaziamenti della sezione che contiene col-big e col-lil */
 .cont-sez {
-  padding: 70px 0;
+  padding: 70px 80px;
 }
 /* /spaziamenti della sezione che contiene col-big e col-lil */
-
-/* ci permettere di disporre col-big e col-lil uno affianco all'altro */
-.cont-sez .row {
-  display: flex;
-}
-/* /ci permettere di disporre col-big e col-lil uno affianco all'altro */
 
 /* definisce la grandezza della colonna grande e il posizionamento dell'immagine al suo interno */
 .col-big {
