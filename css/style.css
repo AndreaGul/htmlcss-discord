@@ -167,6 +167,11 @@ jumbotron
 .bottoni-bottom .b2 {
   background-color: #23272a;
 }
+
+.bottoni-bottom .b1,
+.b2 {
+  padding: 12px 18px;
+}
 /* /caratteristiche dati ai bottoni al di sotto dedl paragrafo */
 
 /* 
