@@ -279,9 +279,9 @@ main .sezione img {
 
 .sezione-max h3 {
   background-image: url('../img/stars.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  padding: 35px;
   background-position: center top;
+  background-repeat: no-repeat;
 }
 
 /**** /sezione ****/
