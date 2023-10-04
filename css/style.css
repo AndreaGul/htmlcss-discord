@@ -315,8 +315,8 @@ footer {
 /* /ridimenzionamento immagine italia */
 
 /* distanziamento dei link social tra di loro */
-.link-social a {
-  margin-right: 10px;
+.link-social {
+  gap: 10px;
 }
 
 /* rimozione dei puntirni vicino all'unordered list */
