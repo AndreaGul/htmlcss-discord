@@ -203,6 +203,12 @@ main .sezione img {
 }
 /* /spaziamenti della sezione che contiene col-big e col-lil */
 
+/* padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
+.col-fu {
+  padding: 0 30px;
+}
+/* /padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
+
 /* definisce la grandezza della colonna grande e il posizionamento dell'immagine al suo interno */
 .col-big {
   width: 60%;
@@ -243,11 +249,12 @@ main .sezione img {
 }
 /* /margini di h3 nella sezione 4 */
 
-/* padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
-.col-fu {
-  padding: 0 30px;
+.sezione-max h3 {
+  background-image: url('../img/stars.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
-/* /padding ai lati che distanzia il titolo e il paragrafo dal contenitore */
 
 /**** /sezione ****/
 
@@ -285,12 +292,6 @@ footer {
 }
 /* /colore di default dei titoli all'interno del footer */
 
-/* divisione del contenuto nella colonna2 in parti uguali */
-.parti {
-  flex-grow: 1;
-}
-/* /divisione del contenuto nella colonna2 in parti uguali */
-
 /* distanziamento di pimg italia e p con il titolo e i link social */
 .colonna1 .spaz {
   margin: 10px 0;
@@ -301,12 +302,7 @@ footer {
 .spaz img {
   margin-right: 10px;
 }
-
-/* grandezza testo del pargrafo nella colonna 1 del footer top */
-.colonna1 p {
-  font-size: 12px;
-}
-/* /grandezza testo del pargrafo nella colonna 1 del footer top */
+/* /spazio tra l'immagine della bandiera italiana e il paragrafo con la lingua italiana */
 
 /* ridimenzionamento immagine italia */
 .ridimensiona {
@@ -319,6 +315,19 @@ footer {
 .link-social {
   gap: 10px;
 }
+/* /distanziamento dei link social tra di loro */
+
+/* divisione del contenuto nella colonna2 in parti uguali */
+.parti {
+  flex-grow: 1;
+}
+/* /divisione del contenuto nella colonna2 in parti uguali */
+
+/* grandezza testo del pargrafo nella colonna 1 del footer top */
+.colonna1 p {
+  font-size: 12px;
+}
+/* /grandezza testo del pargrafo nella colonna 1 del footer top */
 
 /* rimozione dei puntirni vicino all'unordered list */
 .colonna2 ul {
