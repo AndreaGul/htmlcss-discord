@@ -192,6 +192,23 @@ jumbotron
 
 /************ /header ************/
 
+/* ***wave*** */
+
+.wave {
+  height: 100px;
+  background-image: url('../img/wave.svg');
+  opacity: 0.04;
+}
+
+.wave-reverse {
+  height: 100px;
+  background-image: url('../img/wave.svg');
+  transform: rotateX(0.5turn);
+  opacity: 0.04;
+}
+
+/* ***wave*** */
+
 /* ***** main ****** */
 
 /**** sezione ****/
